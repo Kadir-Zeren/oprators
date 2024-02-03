@@ -176,3 +176,19 @@ console.log(true && true);
 console.log(" " && true);
 console.log(5 && "Merhaba");
 console.log(0 && "Dünya");
+console.log(5 && 0);
+console.log(true && false);
+
+console.log(true || false);
+console.log(5 || 15);
+console.log(5 || 0);
+console.log("" || "Merhaba");
+console.log("" || 0);
+
+console.log(!true);
+console.log(!false);
+console.log(!0);
+console.log(!5);
+
+const karşilaştırma = ("merhaba" && "dünya") || false || (28 && 67 && 0);
+console.log(karşilaştırma);
