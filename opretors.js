@@ -60,3 +60,15 @@ console.log("a" * 3);
 
 console.log(typeof ("5" * "9"));
 
+const bol1 = 81;
+const bol2 = 9;
+
+console.log(bol1 / bol2);
+
+console.log(bol1 / "9");
+console.log(bol1 / "dokuz");
+
+console.log(bol2 / 0);
+console.log(-61 / 0);
+
+console.log(0 / 5);
