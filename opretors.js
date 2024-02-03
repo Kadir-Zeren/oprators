@@ -72,3 +72,52 @@ console.log(bol2 / 0);
 console.log(-61 / 0);
 
 console.log(0 / 5);
+console.log(0 / -5);
+
+console.log(57 / 9);
+
+const mod1 = 57;
+const mod2 = 9;
+
+console.log(mod1 % mod2);
+
+console.log(22 % 7);
+
+const benimSayim = 967;
+
+const birlerBas = benimSayim % 10;
+console.log(birlerBas);
+const onlarBas = (benimSayim % 100) / 10;
+console.log(onlarBas);
+const yüzlerBas = benimSayim / 100;
+console.log(yüzlerBas);
+
+console.log(
+  `yüzlerBas: ${Math.trunc(yüzlerBas)}, OnlarBas: ${Math.trunc(
+    onlarBas
+  )}, birlerbas : ${birlerBas}`
+);
+
+const hazirSayi = 56.788888;
+
+console.log(`hazirsayi of Circle: ${hazirSayi.toFixed(2)}`);
+
+const randomNum = Math.random() * 50;
+console.log(randomNum.toFixed(2));
+
+const üs1 = 2;
+const üs2 = 3;
+console.log(üs1 ** üs2);
+
+const pi = 3.14;
+const yariCap = 9;
+
+const alan = pi * yariCap ** 2;
+console.log(alan);
+
+let = artır = 6;
+let artırNew = artır++;
+console.log(artırNew);
+console.log(artırNew);
+console.log(artır);
+console.log(artırNew);
