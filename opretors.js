@@ -121,3 +121,58 @@ console.log(artırNew);
 console.log(artırNew);
 console.log(artır);
 console.log(artırNew);
+
+let nums1 = 14;
+let nums2 = 17;
+
+nums2 = nums2 + nums1;
+console.log(nums2);
+nums2 += nums1;
+
+console.log(nums2);
+
+const num16 = 27;
+console.log(num16 == 27);
+console.log(num16 == "27");
+
+console.log(num16 == 27);
+console.log(num16 === "27");
+
+// const user1 = prompt("lütfen sayı giriniz");
+// const user2 = prompt("lütfen sayı giriniz");
+// console.log(user1);
+// console.log(user2);
+// const isSame = user1 == user2;
+// console.log(isSame);
+
+console.log(true == 1);
+console.log(null == undefined);
+
+console.log(true === 1);
+console.log(null === undefined);
+
+console.log(15 != "15");
+console.log(15 !== "15");
+
+console.log(15 > 5);
+console.log(15 < 5);
+
+console.log("15" > 5);
+console.log("a" > "b");
+
+console.log("a".charCodeAt());
+console.log("b".charCodeAt());
+
+console.log("a" > "B");
+
+console.log(15 >= 15);
+console.log(15 <= 15);
+console.log(15 >= 16);
+
+console.log(15 >= "15");
+console.log("14" <= "15");
+
+console.log(true && true);
+console.log(" " && true);
+console.log(5 && "Merhaba");
+console.log(0 && "Dünya");
